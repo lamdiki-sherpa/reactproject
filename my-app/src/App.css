@@ -1,0 +1,57 @@
+section{
+    
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+  
+    
+    }
+  h1{
+    text-align: center;
+    
+  }
+  
+  .form{
+    margin: 60px auto;
+    background-color:white;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0.2px 0.2px 1px 0.2px black;
+    }
+    .formcontrol{
+     width: 85%;
+     height: 40px;
+     margin-right:5px;
+     border-radius: 5px;
+     outline-style: none;
+     margin-bottom: 10px;
+    }
+    .edit-btn,.delete-btn{
+      background-color:white;
+      border: none;
+      height:17px ;
+    }
+    .edit-btn{
+      color: green;
+    }
+    .delete-btn{
+      color: red;
+    }
+    article{
+      display: flex;
+    }
+    .title{
+      width: 85%;
+      text-transform: capitalize;
+      font-weight:bold;
+    }
+    .btn-container{
+      width: 15%;
+    
+    }
+    .alert{
+      text-align: center;
+      margin-bottom: -10px;
+      font-weight: bold;
+    }
